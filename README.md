@@ -17,10 +17,12 @@ A community driven list of useful Scala libraries, frameworks and software. This
     - [Modularization and Dependency Injection](#modularization-and-dependency-injection)
     - [Distributed Systems](#distributed-systems)
     - [Extensions](#extensions)
+    - [Misc](#misc)
     - [Android](#android)
     - [HTTP](#http)
     - [Semantic Web](#semantic-web)
     - [Metrics and Monitoring](#metrics-and-monitoring)
+    - [Parsing](#parsing)
     - [Sbt plugins](#sbt-plugins)
 - [Contributing](#contributing)
 
@@ -28,18 +30,18 @@ A community driven list of useful Scala libraries, frameworks and software. This
 
 *Database access libraries in Scala.*
 
-* [ScalikeJDBC](https://github.com/scalikejdbc/scalikejdbc) — A tidy SQL-based DB access library for Scala developers.
-* [Slick](https://github.com/slick/slick) — Modern database query and access library for Scala.
-* [Squeryl](https://github.com/squeryl/squeryl) — A Scala DSL for talking with databases with minimum verbosity and maximum type safety.
 * [Activate](https://github.com/fwbrasil/activate) — Pluggable object persistence in Scala.
-* [Scala ActiveRecord](https://github.com/aselab/scala-activerecord) — ORM library for scala, inspired by ActiveRecord of Ruby on Rails.
-* [PostgreSQL and MySQL async](https://github.com/mauricio/postgresql-async) — Async database drivers to talk to PostgreSQL and MySQL in Scala.
-* [ReactiveMongo](https://github.com/ReactiveMongo/ReactiveMongo) — Reactive Scala Driver for MongoDB.
+* [Elastic4s](https://github.com/sksamuel/elastic4s) - A scala DSL / reactive client for Elasticsearch
 * [Phantom](https://github.com/websudosuk/phantom) — Async type safe Scala DSL for Apache Cassandra.
+* [PostgreSQL and MySQL async](https://github.com/mauricio/postgresql-async) — Async database drivers to talk to PostgreSQL and MySQL in Scala.
 * [ReactiveCouchbase](http://reactivecouchbase.org/) — Reactive Scala Driver for Couchbase. Also includes a Play plug-in. An official plug-in is also in development.
+* [ReactiveMongo](https://github.com/ReactiveMongo/ReactiveMongo) — Reactive Scala Driver for MongoDB.
 * [Salat](https://github.com/novus/salat/) — ORM for MongoDB. A related Play-plugin is also available.
+* [Scala ActiveRecord](https://github.com/aselab/scala-activerecord) — ORM library for scala, inspired by ActiveRecord of Ruby on Rails.
+* [ScalikeJDBC](https://github.com/scalikejdbc/scalikejdbc) — A tidy SQL-based DB access library for Scala developers. 
+* [Slick](https://github.com/slick/slick) — Modern database query and access library for Scala.
 * [Sorm](https://github.com/sorm/sorm) — A functional boilerplate-free Scala ORM.
-
+* [Squeryl](https://github.com/squeryl/squeryl) — A Scala DSL for talking with databases with minimum verbosity and maximum type safety.
 
 ## Web Frameworks
 
@@ -55,7 +57,7 @@ A community driven list of useful Scala libraries, frameworks and software. This
 * [Chaos](https://github.com/mesosphere/chaos) — A lightweight framework for writing REST services in Scala.
 * [Xitrum](http://xitrum-framework.github.io/) — An async and clustered Scala web framework and HTTP(S) server fusion on top of Netty, Akka, and Hazelcast.
 * [Unfiltered](https://github.com/unfiltered/unfiltered) — A modular set of unopinionated primitives for servicing HTTP and WebSocket requests in Scala.
-
+* [Colossus](http://tumblr.github.io/colossus/) — lightweight framework for building high-performance applications in Scala that require non-blocking network I/O.
 
 ## i18n
 
@@ -72,6 +74,7 @@ A community driven list of useful Scala libraries, frameworks and software. This
 * [SecureSocial](https://github.com/jaliss/securesocial) — A module that provides OAuth, OAuth2 and OpenID authentication for Play Framework applications.
 * [play2-auth](https://github.com/t2v/play2-auth) — Play2.x Authentication and Authorization module.
 * [play-pac4j](https://github.com/leleuj/play-pac4j) — Profile & Authentication Client in Scala for CAS, OAuth, OpenID, SAML & HTTP protocols and Play 2.x framework.
+* [play-silhouette](https://github.com/mohiva/play-silhouette) — Authentication library for Play Framework applications that supports several authentication methods, including OAuth1, OAuth2, OpenID, Credentials or custom authentication schemes.
 
 ## Testing
 
@@ -85,6 +88,7 @@ A community driven list of useful Scala libraries, frameworks and software. This
 * [Scalive](https://github.com/xitrum-framework/scalive) — Connect a Scala REPL to running JVM processes without any prior setup; this library is used for inspecting systems in production mode.
 * [Scalastyle](https://github.com/scalastyle/scalastyle) – Scala style checker.
 * [Gatling](http://gatling-tool.org/) – Async Scala-Akka-Netty based Stress Tool.
+* [ScalaMock](http://scalamock.org) – Scala native mocking framework 
 
 ## JSON Manipulation
 
@@ -104,6 +108,7 @@ A community driven list of useful Scala libraries, frameworks and software. This
 * [scodec](https://github.com/scodec/scodec) — A combinator library for working with binary data.
 * [Scrooge](http://twitter.github.io/scrooge/) — An Apache Thrift code generator for Scala.
 * [validation](https://github.com/jto/validation) — Advanced validation & serialization for JSON, HTML form data, etc, with no reflection at runtime.
+* [Chill](https://github.com/twitter/chill) — Extensions for the Kryo serialization library to ease configuration in systems like Hadoop and Storm.
 
 ## Science and Data Analysis
 
@@ -111,10 +116,12 @@ A community driven list of useful Scala libraries, frameworks and software. This
 
 * [Algebird](https://github.com/twitter/algebird) — Abstract Algebra for Scala.
 * [Breeze](https://github.com/scalanlp/breeze) — Breeze is a numerical processing library for Scala.
+* [Chalk](https://github.com/scalanlp/chalk) — Chalk is a natural language processing library. 
 * [FACTORIE](https://github.com/factorie/factorie) — A toolkit for deployable probabilistic modeling, implemented as a software library in Scala.
 * [Figaro](https://github.com/p2t2/figaro) - Figaro is a probabilistic programming language that supports development of very rich probabilistic models.
 * [MGO](https://github.com/romainreuillon/mgo) — Modular multi-objective evolutionary algorithm optimization library enforcing immutability.
 * [MLLib](https://spark.apache.org/mllib/) — Machine Learning framework for Spark
+* [OpenMOLE](https://github.com/ISCPIF/openmole) — OpenMOLE (Open MOdeL Experiment) is a workflow engine designed to leverage the computing power of distributed execution environments for naturally parallel processes.
 * [Saddle](https://github.com/saddle/saddle) — A minimalist port of Pandas to Scala
 * [Spire](https://github.com/non/spire) — Powerful new number types and numeric abstractions for Scala.
 * [Squants](https://github.com/garyKeorkunian/squants) — The Scala API for Quantities, Units of Measure and Dimensional Analysis.
@@ -124,6 +131,7 @@ A community driven list of useful Scala libraries, frameworks and software. This
 * [Spark](http://spark.apache.org/) — Lightning fast cluster computing — up to 100x faster than Hadoop for iterative algorithms (memory caching) and up to 10x faster than Hadoop for single-pass MapReduce jobs. Compatible with YARN-enabled Hadoop clusters, can run on Mesos and in stand-alone mode as well.
 * [Scalding](https://github.com/twitter/scalding) — A Scala binding for the Cascading abstraction of Hadoop MapReduce.
 * [Summingbird](https://github.com/twitter/summingbird) — An implementation of the “lambda architecture” as a software abstraction — a single API for Hadoop and Storm.
+* [Shadoop](https://github.com/adamretter/shadoop) - A Scala DSL for Hadoop MapReduce.
 * [Scrunch](http://crunch.apache.org/scrunch.html) — A Scala wrapper for [Apache Crunch](http://crunch.apache.org/index.html) which provides a framework for writing, testing, and running MapReduce pipelines.
 * [GridScale](https://github.com/romainreuillon/gridscale) — A Scala API for computing clusters and grids.
 * [scoozie](https://github.com/klout/scoozie) — Scala DSL on top of Oozie XML.
@@ -171,6 +179,10 @@ A community driven list of useful Scala libraries, frameworks and software. This
 * [Scala Graph](http://www.scala-graph.org/) – A Scala library with basic graph functionality that seamlessly fits into the Scala standard collections library
 * [Cassovary](https://github.com/twitter/cassovary) – A Scala library that is designed from the ground up for space efficiency, handling graphs with billions of nodes and edges.
 
+## Misc
+
+* [REPLesent](https://github.com/marconilanna/REPLesent) – A presentation tool built inside the Scala REPL. Runs code straight from your slides with a single keystroke.
+
 ## Android
 
 *Scala libraries and wrappers for Android development.*
@@ -205,10 +217,16 @@ A community driven list of useful Scala libraries, frameworks and software. This
 
 * [Kamon](http://kamon.io) - Gathering metrics from applications built with Akka, Spray and Play! with support for user metrics as well.
 
+## Parsing
+
+*Scala libraries for creating parsers.*
+
+* [Scala Parser Combinators](https://github.com/scala/scala-parser-combinators) – Scala Standard Parser Combinator Library.
+* [Parboiled2](https://github.com/sirthias/parboiled2) – A Fast Parser Generator for Scala 2.10.3+.
 
 ## Sbt plugins
 
-*Sbt plugins to make your life easier*
+*Sbt plugins to make your life easier.*
 
 * [Sbt-Revolver](https://github.com/spray/sbt-revolver) – Fork & Stop processes from sbt.
 * [Sbt-Eclipse](https://github.com/typesafehub/sbteclipse) – Create Eclipse project definitions from sbt builds.
@@ -218,6 +236,7 @@ A community driven list of useful Scala libraries, frameworks and software. This
 * [Sbt-Start-Script](https://github.com/sbt/sbt-start-script) – Create a "start" script to run the program.
 * [ScalaKata](https://github.com/MasseGuillaume/ScalaKata) – Scala playground & Documentation tool.
 * [WartRemover](https://github.com/typelevel/wartremover) – Flexible Scala code linting tool.
+* [xsbt-web-plugin](https://github.com/earldouglas/xsbt-web-plugin) – Build enterprise J2EE Web applications in Scala.
 
 # Contributing
 
